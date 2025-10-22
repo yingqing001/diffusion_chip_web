@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Dall-EM: Generative AI with Diffusion Models for New Design Space Discovery and Target-to-Electromagnetic Structure Synthesis">
+  <meta name="keywords" content="Dall-EM, diffusion models, electromagnetic, EM structures, RF, mmWave, generative AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dall-EM: Generative AI with Diffusion Models for New Design Space Discovery and Target-to-Electromagnetic Structure Synthesis</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://princeton.edu">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Dall-EM: Generative AI with Diffusion Models for New Design Space Discovery and Target-to-Electromagnetic Structure Synthesis</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Yingqing Guo<sup>1</sup>,</span>
+            <span class="author-block">Emir Ali Karahan<sup>2</sup>,</span>
+            <span class="author-block">Zihao Li<sup>3</sup>,</span>
+            <span class="author-block">Zijian Shao<sup>4</sup>,</span>
+            <span class="author-block">Zaixi Zhang<sup>5</sup>,</span>
+            <span class="author-block">Mengdi Wang<sup>6</sup>,</span>
+            <span class="author-block">Kaushik Sengupta<sup>7</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Princeton University, USA</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="has-text-centered">
+        <img src="./asset/images/fig1_updated_v2.png" alt="Dall-EM Overview" style="max-width: 100%; height: auto;">
+      </div>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Dall-EM</span> introduces generative AI with diffusion models for rapid synthesis of arbitrary shaped electromagnetic structures from target S-parameters.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">TL;DR</h2>
+        <div class="content has-text-justified">
+          <p><strong>Problem:</strong> RF and mmWave circuit design relies on designer experience with time-intensive simulations and limited parameterized templates that restrict design space.</p>
+
+          <p><strong>Our Innovation:</strong> First-ever application of diffusion models for electromagnetic (EM) structure synthesis from target S-parameters, enabling arbitrary shaped structures beyond traditional templates.</p>
+
+          <p><strong>Key Results:</strong></p>
+          <ul>
+            <li>Design convergence in seconds vs weeks with traditional methods</li>
+            <li>~10x faster than prior predictive AI models</li>
+            <li>Successfully demonstrated with fabricated structures across 10-30 GHz</li>
+            <li>Achieved normalized L1 error of 0.065 for S-parameter matching</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Problem & Motivation -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Problem & Motivation</h2>
+        <div class="content has-text-justified">
+          <p>
+            Traditional RF/mmWave circuit design faces significant challenges: (1) Designer experience-driven process with tedious manual steps, (2) Limited to pre-defined parameterized templates that restrict design space, (3) Time and resource-intensive EM simulations and iterative optimization, (4) No set templates for complex spectral responses. While optimization methods exist, they require minutes to hours for synthesis, limiting design exploration.
+          </p>
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column is-three-quarters">
+            <div class="has-text-centered">
+              <img src="./asset/images/dataset.png" alt="Dataset Properties" style="max-width: 100%; height: auto;">
+              <p class="has-text-centered is-size-6 has-text-grey">
+                <em>Dataset properties showing 18×18 pixelated EM structures on PCB substrate, simulated across 10-30 GHz for FR-3, satellite and low FR-2 bands.</em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Method -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Diffusion-Based EM Synthesis</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our approach applies conditional diffusion models to EM structure generation. The method: (1) Represents EM structures as 18×18 binary-valued grids (images), (2) Trains a U-Net with cross-attention mechanism on 145K simulations, (3) Uses S21 magnitude (21-dimensional vector) as conditioning input, (4) Employs score function approximation to guide denoising from random noise to valid EM structure, (5) Leverages DDIM scheduler for inference in ~25 seconds. The model learns the conditional distribution P(x|y) where x is the EM structure and y is the target S-parameters.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Design Examples & Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            The diffusion model successfully generates diverse filter designs: (1) Sharp transition low-pass filters (10-15 GHz pass, 16-30 GHz stop), (2) Band-stop filters at 14-16 GHz, (3) Band-pass filters with different center frequencies, (4) Narrow-band filters (15.5-16.5 GHz). Training-free guidance techniques optimize for ideal responses like brick-wall filters. The approach achieves normalized L1 error of 0.065 compared to CNN predictor baseline of 0.020.
+          </p>
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column is-three-quarters">
+            <div class="has-text-centered">
+              <img src="./asset/images/design_examples.png" alt="Design Examples" style="max-width: 100%; height: auto;">
+              <p class="has-text-centered is-size-6 has-text-grey">
+                <em>Design examples: (a) Low pass filter with sharp transition, (b)-(c) Band stop and band pass filters at 15 GHz, (d) Band pass at different frequency.</em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Measurements -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Experimental Validation</h2>
+        <div class="content has-text-justified">
+          <p>
+            Fabricated structures on Rogers PCB substrate demonstrate successful synthesis. Measurement results show: (1) Good correlation between simulation and measurement despite PCB process variations, (2) Multiple synthesis runs produce different structures for same target due to stochastic nature, (3) Successful band-pass operation at 14-16 GHz and narrow-band at 15.5-16.5 GHz, (4) Robustness to process variations validates the synthesis approach. This represents the first demonstration of EM structure synthesis with directed diffusion models.
+          </p>
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column is-three-quarters">
+            <div class="has-text-centered">
+              <img src="./asset/images/measurements.png" alt="Measurement Results" style="max-width: 100%; height: auto;">
+              <p class="has-text-centered is-size-6 has-text-grey">
+                <em>Measurement results showing good simulation-measurement correlation for (a)-(b) 14-16 GHz pass band and (c) narrow 16 GHz centered pass band.</em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{guo2024dallem,
+  title={Dall-EM: Generative AI with Diffusion Models for New Design Space Discovery and Target-to-Electromagnetic Structure Synthesis},
+  author={Guo, Yingqing and Karahan, Emir Ali and Li, Zihao and Shao, Zijian and Zhang, Zaixi and Wang, Mengdi and Sengupta, Kaushik},
+  journal={IMS Conference},
+  year={2024},
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://github.com/princeton" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
